@@ -1,0 +1,71 @@
+:root {
+  --grape: #391752;
+  --turquoise-blue: #5decde;
+  --denim: #0e6fb4;
+}
+
+::selection {
+  background-color: var(--denim);
+  color: var(--grape);
+}
+
+header {
+  padding: 20px;
+  margin: 15px;
+  background-color: var(--denim);
+  outline: 2px solid black;
+  border-radius: 10px; 
+  
+}
+.navtitle {
+  text-align: end;
+}
+
+h1 {
+  border-radius: auto;
+  font-size: 2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.navaside ul {
+
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  background-color: var(--denim);
+  max-width: 600px;
+  height: 800px;
+  border: 2px solid black;
+  border-radius: 15px;
+  
+
+
+}
+
+ul li {
+    margin-top: 10px;
+    
+    
+}
+
+.container {
+  border: 5px solid var(--turquoise-blue);
+  
+  
+ 
+}
+
+body {
+  background-color: var(--turquoise-blue);
+  color: var(--grape);
+  font-weight: 700;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(170,0,162);
+background: linear-gradient(90deg, rgba(170,0,162,0.9329481792717087) 35%, rgba(0,212,255,1) 100%);
+ 
+  
+}
