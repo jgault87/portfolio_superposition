@@ -7,33 +7,43 @@
 ::selection {
   background-color: var(--turquoise-blue);
   color: var(--grape);
-  
+
 }
 
 header {
   padding: 20px;
   margin: 15px;
   outline: 2px solid black;
-  border-radius: 10px; 
+  border-radius: 10px;
   height: 100px;
-  background: rgb(83,60,186);
-background: radial-gradient(circle, rgba(83,60,186,1) 0%, rgba(97,48,142,1) 100%);
-   
+  background: rgb(83, 60, 186);
+  background: radial-gradient(circle, rgba(83, 60, 186, 1) 0%, rgba(97, 48, 142, 1) 100%);
 
-  
+
+
+}
+.para{
+  background-color: white;
+  border-radius: 10px;
+}
+
+#paragraph {
+  background-color: white;
+  border-radius: 10px;
+
 }
 
 .navtitle {
   text-align: end;
   position: relative;
-  
-  
- }
- 
- /* top Navigation button style */
 
- span {
- 
+
+}
+
+/* top Navigation button style */
+
+span {
+
   padding: 15px;
   margin: 5px;
   border: 5px;
@@ -43,24 +53,24 @@ background: radial-gradient(circle, rgba(83,60,186,1) 0%, rgba(97,48,142,1) 100%
   top: 30px;
   outline: 2px solid black;
   border-radius: 15px;
-   
- } 
-  
- 
+
+}
+
+
 /* My name header style */
 
 h1 {
-  margin: 0px; 
+  margin: 0px;
   padding: 0px;
   font-size: 2rem;
   position: relative;
-  bottom: 10px; 
-  font-family: 'Courier New', Courier, monospace ;
-  color: #5decde ;
-   
+  bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #5decde;
+
 }
 
- ul {
+ul {
 
   display: flex;
   margin-left: 2vw;
@@ -86,7 +96,7 @@ h1 {
   margin-right: 25vh;
   margin-left: 100px;
   margin-top: 200px;
-  margin-bottom: 500px; 
+  margin-bottom: 500px;
   justify-content: space-evenly;
   width: 40vw;
   height: 40vw;
@@ -98,9 +108,9 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color:white;
+  color: white;
   text-shadow: 2px 2px 5px grey;
-  
+
 
 
 }
@@ -109,14 +119,14 @@ h1 {
 
 
 ul li {
-    margin-top: 10px;
-    color: whitesmoke;
-    display: block;
+  margin-top: 10px;
+  color: whitesmoke;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  
-   
-   
+
+
+
 }
 
 
@@ -124,8 +134,8 @@ ul li {
 
 .container {
   border: 5px solid var(--turquoise-blue);
-  
-   
+
+
 }
 
 body {
@@ -133,99 +143,116 @@ body {
   color: var(--grape);
   font-weight: 700;
   font-size: 130%;
-  font-family: Arial, Helvetica, sans-serif;
-  background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #4ca1af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
+  background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Roboto', sans-serif !important;
 
 }
 
 .grid-container {
 
-  
+
   height: 700px;
   max-width: 1000px;
   display: grid;
-  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: auto auto auto;
   gap: 10px;
   background-color: transparent;
   padding: 20px;
   margin-top: 50px;
   margin-left: 10px;
   margin-bottom: 100px;
-  
+
 }
 
-.grid-container > div {
-  
+.grid-container>div {
+
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
   align-items: center;
-  
-  
+border-radius: 15px;
+
 }
 
 .item1 {
   grid-column: 1 / span 3;
-  background-image: url(images/fractals.jpg);
+  background-image: url(images/weatherbanner.png);
   background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
   text-shadow: 2px 2px 5px grey;
-  color:white;
+  color: white;
   opacity: 0.7;
 }
 
 .item2 {
   background-image: url(images/triangle.jpg);
   background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
   text-shadow: 2px 2px 5px grey;
-  color:white;
+  color: white;
   opacity: 0.7;
 }
 
 #project3 {
   background-image: url(images/circle.jpg);
   background-size: cover;
-  color:white;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  color: white;
   text-shadow: 2px 2px 5px grey;
   opacity: 0.7;
-  
-  
+
+
 }
 
 
 .item4 {
   background-image: url(images/mountain.jpg);
   background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
   text-shadow: 2px 2px 5px grey;
-  color:white;
+  color: white;
   opacity: 0.7;
-  
-} 
+
+}
 
 /* hover affect for image grid */
 
 .item1:hover,
-.item2:hover, 
-#project3:hover, 
-.item4:hover {opacity: 1}
+.item2:hover,
+#project3:hover,
+.item4:hover {
+  opacity: 1
+}
 
- header:hover, ul:hover, .item1:hover, .item2:hover, #project3:hover, .item4:hover {
+header:hover,
+ul:hover,
+.item1:hover,
+.item2:hover,
+#project3:hover,
+.item4:hover {
   box-shadow: inset 0px 0px 16px var(--grape), 0 0 30px var(--grape);
 
 }
 
 #contact {
 
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    background: rgb(83,60,186);
-    background: radial-gradient(circle, rgba(83,60,186,1) 0%, rgba(97,48,142,1) 100%);
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: rgb(83, 60, 186);
+  background: radial-gradient(circle, rgba(83, 60, 186, 1) 0%, rgba(97, 48, 142, 1) 100%);
 
 }
 
@@ -237,13 +264,18 @@ body {
 
 
 @media screen and (max-width: 768px) {
-  .grid-container, div {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);}
-    
+
+  .grid-container,
+  div {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+
   header {
-      width: 100%;
-    }
-  .container, .navaside ul  {
+    width: 100%;
+  }
+
+  .container,
+  .navaside ul {
     flex: 50%;
     max-height: 50%;
     max-height: 50%;
@@ -258,15 +290,15 @@ body {
     margin-top: auto;
     margin-bottom: auto;
   }
+
   .navtitle {
     text-align: center;
     display: grid;
 
-    
-    
-    
-   }
+
+
+
+  }
 
 
 }
- 
