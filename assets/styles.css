@@ -64,19 +64,45 @@ h1 {
 
   display: flex;
   margin-left: 2vw;
-  margin-top: 20px;
+  margin-top: 200px;
   justify-content: space-evenly;
-  width: 47vw;
-  height: 47vw;
+  width: 40vw;
+  height: 40vw;
   border: 2px solid black;
   border-radius: 15px;
   background-image: url(images/purple_valley.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 500px;
+  margin-top: 200px;
 
 
 }
+
+.me {
+
+  display: flex;
+  margin-left: 25vh;
+  margin-top: 200px;
+  justify-content: space-evenly;
+  width: 47vw;
+  height: 47vw;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-image: url(images/placeholder.jpg);
+  width: 40vw;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:white;
+  text-shadow: 2px 2px 5px grey;
+  margin-bottom: 500px; 
+
+
+}
+
 
 
 
@@ -86,6 +112,7 @@ ul li {
     display: block;
   margin-left: auto;
   margin-right: auto;
+  
    
    
 }
@@ -202,25 +229,6 @@ body {
   display: flex;
 }
 
-.me {
-
-  display: flex;
-  margin-left: 2vw;
-  margin-top: 20px;
-  justify-content: space-evenly;
-  width: 47vw;
-  height: 47vw;
-  border: 2px solid black;
-  border-radius: 15px;
-  background-image: url(images/placeholder.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color:white;
-  text-shadow: 2px 2px 5px grey;
-
-
-}
 
 
 
@@ -239,7 +247,22 @@ body {
 
   .wrapper {
     flex-direction: column;
+    align-items: flex-direction;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
   }
+  .navtitle {
+    text-align: center;
+    display: grid;
+
+    
+    
+    
+   }
+
 
 }
  
