@@ -83,11 +83,13 @@ h1 {
 .me {
 
   display: flex;
-  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-left: 100px;
   margin-top: 200px;
+  margin-bottom: 500px; 
   justify-content: space-evenly;
-  width: 47vw;
-  height: 47vw;
+  width: 40vw;
+  height: 40vw;
   border: 2px solid black;
   border-radius: 15px;
   background-image: url(images/placeholder.jpg);
@@ -98,7 +100,7 @@ h1 {
   background-position: center;
   color:white;
   text-shadow: 2px 2px 5px grey;
-  margin-bottom: 500px; 
+  
 
 
 }
@@ -144,12 +146,13 @@ body {
   height: 700px;
   max-width: 1000px;
   display: grid;
-  grid-template-columns: auto auto auto;
+  /* grid-template-columns: auto auto auto; */
   gap: 10px;
   background-color: transparent;
   padding: 20px;
   margin-top: 50px;
   margin-left: 10px;
+  margin-bottom: 100px;
   
 }
 
@@ -160,6 +163,7 @@ body {
   padding: 20px 0;
   font-size: 30px;
   align-items: center;
+  
   
 }
 
