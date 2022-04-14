@@ -306,7 +306,7 @@ ul:hover,
   .navtitle {
     text-align: center;
     display: grid;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 
 
 
