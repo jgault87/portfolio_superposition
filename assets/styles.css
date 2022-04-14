@@ -25,11 +25,17 @@ header {
 .para{
   background-color: white;
   border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
 }
 
 #paragraph {
   background-color: white;
   border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  outline: 2px solid black;
 
 }
 
@@ -173,9 +179,10 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 1.4rem;
   align-items: center;
-border-radius: 15px;
+  border-radius: 15px;
+  text-shadow: 2px 2px 5px black;
 
 }
 
@@ -185,7 +192,7 @@ border-radius: 15px;
   background-size: cover;
   background-repeat: no-repeat, repeat;
   background-position: center;
-  text-shadow: 2px 2px 5px grey;
+  text-shadow: 2px 2px 5px black;
   color: white;
   opacity: 0.7;
   cursor: pointer;
@@ -197,19 +204,19 @@ border-radius: 15px;
   background-size: cover;
   background-repeat: no-repeat, repeat;
   background-position: center;
-  text-shadow: 2px 2px 5px grey;
+  text-shadow: 2px 2px 5px black;
   color: white;
   opacity: 0.7;
   cursor: pointer;
 }
 
-#project3 {
+.item3 {
   background-image: url(images/circle.jpg);
   background-size: cover;
   background-repeat: no-repeat, repeat;
   background-position: center;
   color: white;
-  text-shadow: 2px 2px 5px grey;
+  text-shadow: 1px 1px 4px grey;
   opacity: 0.7;
   cursor: pointer;
 
@@ -226,6 +233,7 @@ border-radius: 15px;
   color: white;
   opacity: 0.7;
   cursor: pointer;
+  font-size: 1rem;
 
 }
 
