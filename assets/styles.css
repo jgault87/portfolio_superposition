@@ -273,18 +273,24 @@ ul:hover,
 
   .grid-container,
   div {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 2fr) minmax(0, 2fr) minmax(0, 2fr);
   }
 
   header {
     width: 100%;
   }
 
-  .container,
-  .navaside ul {
-    flex: 50%;
-    max-height: 50%;
-    max-height: 50%;
+  .para {
+  
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #paragraph {
+    display: flex;
+    justify-content: space-between;
+    
   }
 
   /* .wrapper {
@@ -300,6 +306,7 @@ ul:hover,
   .navtitle {
     text-align: center;
     display: grid;
+    justify-content: space-evenly;
 
 
 
