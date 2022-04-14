@@ -13,6 +13,6 @@ project2El.addEventListener("click", function() {
 });
 
 project3El.addEventListener("click", function() {
-    window.open("https://github.com/jgault87/my_destiny_planner");
+    window.open("https://jgault87.github.io/my_destiny_planner/");
 });
 
