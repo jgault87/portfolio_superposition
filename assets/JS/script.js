@@ -16,3 +16,13 @@ project3El.addEventListener("click", function() {
     window.open("https://jgault87.github.io/my_destiny_planner/");
 });
 
+function openNav() {
+    let x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+document.getElementById('top').  document.body.scrollTop = document.documentElement.scrollTop = 0;

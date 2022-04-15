@@ -1,7 +1,7 @@
 :root {
-  --grape: #391752;
+  --grape: #391752cb;
   --turquoise-blue: #5decde;
-  --denim: #0e6fb4;
+  --denim: #0e6fb4b0;
 }
 
 ::selection {
@@ -10,7 +10,65 @@
 
 }
 
-header {
+.topnav {
+  overflow: hidden;
+  background-color: var(--grape);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: var(--denim);
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: fixed;
+    top: 0;
+    width: 100%;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+/* header {
   padding: 20px;
   margin: 15px;
   outline: 2px solid black;
@@ -19,15 +77,16 @@ header {
   background: rgb(83, 60, 186);
   background: radial-gradient(circle, rgba(83, 60, 186, 1) 0%, rgba(97, 48, 142, 1) 100%);
 
+ */
 
 
-}
-.para{
+
+.para {
   background-color: white;
   border-radius: 10px;
   margin-left: 5px;
   margin-right: 5px;
-  
+
 }
 
 #paragraph {
@@ -39,12 +98,6 @@ header {
 
 }
 
-.navtitle {
-  text-align: end;
-  position: relative;
-
-
-}
 
 /* top Navigation button style */
 
@@ -65,16 +118,7 @@ span {
 
 /* My name header style */
 
-h1 {
-  margin: 0px;
-  padding: 0px;
-  font-size: 2rem;
-  position: relative;
-  bottom: 10px;
-  font-family: 'Courier New', Courier, monospace;
-  color: #5decde;
 
-}
 
 .me {
 
@@ -121,11 +165,11 @@ ul li {
 }
 
 body {
-  background-color: var(--turquoise-blue);
+
   color: var(--grape);
   font-weight: 700;
   font-size: 130%;
-  
+
   background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2c3e50, #4ca1af);
@@ -147,7 +191,9 @@ body {
   margin-top: 50px;
   margin-left: 10px;
   margin-bottom: 100px;
-  
+  margin-left: auto;
+  margin-right: auto;
+
 
 }
 
@@ -233,18 +279,7 @@ ul:hover,
 
 }
 
-#contact {
 
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  background: rgb(83, 60, 186);
-  background: radial-gradient(circle, rgba(83, 60, 186, 1) 0%, rgba(97, 48, 142, 1) 100%);
-
-}
 
 .wrapper {
   display: flex;
@@ -260,20 +295,22 @@ ul:hover,
   outline: 2px solid black;
   border-radius: 15px;
   text-align: center;
-  
-  
-  
+
+
+
 
 }
 
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
-  .grid-container,
-  div {
-    grid-template-columns: minmax(0, 2fr) minmax(0, 2fr) minmax(0, 2fr);
+  .grid-container {
+   
+  display: block;
+  height: 60vh;
+  
   }
 
   header {
@@ -281,16 +318,16 @@ ul:hover,
   }
 
   .para {
-  
+
     display: flex;
     justify-content: space-between;
-    
+
   }
-  
+
   #paragraph {
     display: flex;
     justify-content: space-between;
-    
+
   }
 
   /* .wrapper {
@@ -303,10 +340,10 @@ ul:hover,
     margin-bottom: auto;
   } */
 
-  .navtitle {
+  /* .navtitle {
     text-align: center;
     display: grid;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly; */
 
 
 
@@ -314,4 +351,3 @@ ul:hover,
   }
 
 
-}
