@@ -309,9 +309,20 @@ ul:hover,
   .grid-container {
    
   display: block;
-  height: 60vh;
+  
   
   }
+
+  .grid-container div {
+    height: 15vh;
+    
+    
+  }
+
+  .item1, .item2, .item3, .item4 {
+    margin-bottom: 15px;
+  }
+
 
   header {
     width: 100%;
