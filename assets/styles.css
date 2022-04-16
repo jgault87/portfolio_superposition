@@ -38,12 +38,16 @@
   background-color: var(--denim);
   color: white;
 }
+
 .topnav .icon {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -51,14 +55,18 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: fixed;
+  .topnav.responsive {
+    position: fixed;
     top: 0;
-    width: 100%;}
+    width: 100%;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -88,11 +96,7 @@
 }
 
 
-/* top Navigation button style */
 
-
-
-/* My name header style */
 
 
 
@@ -144,9 +148,9 @@ ul li {
   position: relative;
   z-index: 1;
   text-align: center;
-  
+
   padding: 50px 0 600px;
-  
+
   -webkit-box-shadow: 0 3px 5px #222;
   -moz-box-shadow: 0 3px 5px #222;
   box-shadow: 0 3px 5px #222;
@@ -248,14 +252,6 @@ body {
 
 }
 
-/* hover affect for image grid */
-
-/* .item1:hover,
-.item2:hover,
-#project3:hover,
-.item4:hover {
-  opacity: 1
-} */
 
 
 .item1:hover,
@@ -304,41 +300,28 @@ ul {
   color: white;
 }
 
-/* .footer-inner {
-  width: 600px;
-  position: fixed;
-  left: 50%;
-  bottom: 0;
-  margin-left: -300px;
-  z-index: -1;
-  border: 1px solid transparent;
-  color: #fff;
-  padding: 1px;
-  padding-bottom: 60px;
-  margin-top: 200px; */
-
-
-
-
 
 
 
 @media screen and (max-width: 600px) {
 
   .grid-container {
-   
-  display: block;
-  
-  
+
+    display: block;
+
+
   }
 
   .grid-container div {
     height: 15vh;
-    
-    
+
+
   }
 
-  .item1, .item2, .item3, .item4 {
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
     margin-bottom: 15px;
   }
 
@@ -361,24 +344,7 @@ ul {
 
   }
 
-  /* .wrapper {
-    flex-direction: column;
-    align-items: flex-direction;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-  } */
-
-  /* .navtitle {
-    text-align: center;
-    display: grid;
-    justify-content: space-evenly; */
 
 
 
-
-  }
-
-
+}
