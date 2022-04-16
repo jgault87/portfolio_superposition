@@ -1,7 +1,7 @@
 :root {
-  --grape: #391752cb;
+  --grape: #391752;
   --turquoise-blue: #5decde;
-  --denim: #0e6fb4b0;
+  --denim: #0e6fb4;
 }
 
 ::selection {
@@ -68,17 +68,6 @@
 
 
 
-/* header {
-  padding: 20px;
-  margin: 15px;
-  outline: 2px solid black;
-  border-radius: 10px;
-  height: 100px;
-  background: rgb(83, 60, 186);
-  background: radial-gradient(circle, rgba(83, 60, 186, 1) 0%, rgba(97, 48, 142, 1) 100%);
-
- */
-
 
 
 .para {
@@ -101,19 +90,6 @@
 
 /* top Navigation button style */
 
-span {
-
-  padding: 15px;
-  margin: 5px;
-  border: 5px;
-  background-color: white;
-  
-  left: 20px;
-  top: 30px;
-  outline: 2px solid black;
-  border-radius: 15px;
-
-}
 
 
 /* My name header style */
@@ -147,7 +123,7 @@ span {
 ul li {
   margin-top: 10px;
   color: whitesmoke;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 
@@ -181,11 +157,8 @@ body {
   color: var(--grape);
   font-weight: 700;
   font-size: 130%;
-
   background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2c3e50, #4ca1af);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Roboto', sans-serif !important;
   margin: 0;
   position: relative;
@@ -232,7 +205,7 @@ body {
   background-position: center;
   text-shadow: 2px 2px 5px black;
   color: white;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   cursor: pointer;
 
 }
@@ -244,7 +217,7 @@ body {
   background-position: center;
   text-shadow: 2px 2px 5px black;
   color: white;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   cursor: pointer;
 }
 
@@ -255,7 +228,7 @@ body {
   background-position: center;
   color: white;
   text-shadow: 1px 1px 4px grey;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   cursor: pointer;
 
 
@@ -269,7 +242,7 @@ body {
   background-position: center;
   text-shadow: 2px 2px 5px grey;
   color: white;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   cursor: pointer;
   font-size: 1rem;
 
@@ -277,18 +250,17 @@ body {
 
 /* hover affect for image grid */
 
-.item1:hover,
+/* .item1:hover,
 .item2:hover,
 #project3:hover,
 .item4:hover {
   opacity: 1
-}
+} */
 
-header:hover,
-ul:hover,
+
 .item1:hover,
 .item2:hover,
-#project3:hover,
+.item3:hover,
 .item4:hover {
   box-shadow: inset 0px 0px 16px var(--grape), 0 0 30px var(--grape);
 
@@ -316,14 +288,18 @@ ul:hover,
 
 }
 
+ul {
+  display: inline-block;
+}
+
 .footer {
-  background-color: #555;
+  background-color: var(--grape);
   height: 20vh;
   position: relative;
   z-index: -2;
   margin-top: 200px;
   padding: 20px;
-  border: 5px solid;
+  border-radius: 15px;
   text-align: center;
   color: white;
 }

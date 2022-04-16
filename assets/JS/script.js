@@ -24,5 +24,3 @@ function openNav() {
       x.className = "topnav";
     }
   }
-
-document.getElementById('top').  document.body.scrollTop = document.documentElement.scrollTop = 0;
