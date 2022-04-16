@@ -124,17 +124,34 @@
 
 
 
-ul li {
+li {
   margin-top: 10px;
-  color: whitesmoke;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-
-
+  color: #f2f2f2;
+  padding: 10px;
+  
 
 }
 
+ul {
+  padding: 20px 0;
+  gap: 5px;
+}
+
+
+.footer {
+  background-color: var(--grape);
+  height: 20vh;
+  position: relative;
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  
+}
 
 
 
@@ -253,7 +270,7 @@ body {
 }
 
 
-
+.button,
 .item1:hover,
 .item2:hover,
 .item3:hover,
@@ -284,21 +301,9 @@ body {
 
 }
 
-ul {
-  display: inline-block;
-}
 
-.footer {
-  background-color: var(--grape);
-  height: 20vh;
-  position: relative;
-  z-index: -2;
-  margin-top: 200px;
-  padding: 20px;
-  border-radius: 15px;
-  text-align: center;
-  color: white;
-}
+
+
 
 
 
