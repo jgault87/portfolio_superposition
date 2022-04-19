@@ -16,6 +16,10 @@ project3El.addEventListener("click", function() {
     window.open("https://jgault87.github.io/my_destiny_planner/");
 });
 
+project4El.addEventListener("click", function() {
+  window.open("https://github.com/jgault87/generateReadYou");
+});
+
 function openNav() {
     let x = document.getElementById("myTopnav");
     if (x.className === "topnav") {

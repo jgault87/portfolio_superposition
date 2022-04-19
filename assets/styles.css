@@ -100,30 +100,6 @@
 
 
 
-.me {
-
-  display: flex;
-  justify-content: space-evenly;
-  min-width: 40vw;
-  min-height: 40vw;
-  border: 2px solid black;
-  border-radius: 15px;
-  background-image: url(images/placeholder.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-shadow: 2px 2px 5px grey;
-  max-width: 100%;
-  max-height: 100%;
-
-
-
-}
-
-
-
-
 .footer {
   background-color: var(--grape);
   height: 17vh;
@@ -258,7 +234,7 @@ body {
 
 
 .item4 {
-  background-image: url(images/mountain.jpg);
+  background-image: url(images/generate.png);
   background-size: cover;
   background-repeat: no-repeat, repeat;
   background-position: center;
