@@ -2,11 +2,14 @@ const modal = document.getElementById('project-modal');
 const projectHead = document.getElementById('project-header');
 const projectBody = document.getElementById('project-desc');
 
-
-
-
-
-
+function openNav() {
+  let x = document.getElementById('myTopnav');
+  if (x.className === 'topnav') {
+    x.className += 'responsive';
+  } else {
+    x.className = 'topnav';
+  }
+}
 
 document.getElementById('project1').addEventListener('click', () => {
   modal.style.display = 'block';
@@ -52,11 +55,3 @@ document.getElementById('project6').addEventListener('click', () => {
   <a href="https://github.com/jgault87/blog-buster" class="w3-button w3-margin w3-teal">Github repo</a>   <a href="https://mighty-savannah-09972.herokuapp.com/" class="w3-button w3-margin w3-teal">Deployed Page</a>`;
 });
 
-function openNav() {
-  let x = document.getElementById('myTopnav');
-  if (x.className === 'topnav') {
-    x.className += 'responsive';
-  } else {
-    x.className = 'topnav';
-  }
-}
