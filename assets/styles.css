@@ -191,12 +191,12 @@ body {
 }
 
 .item3 {
-  background-image: url(images/circle.jpg);
+  background-image: url(images/team.jpg);
   background-size: cover;
   background-repeat: no-repeat, repeat;
   background-position: center;
   color: white;
-  text-shadow: 1px 1px 4px grey;
+  text-shadow: 2px 2px 8px rgb(0, 0, 0);
   /* opacity: 0.7; */
   cursor: pointer;
 

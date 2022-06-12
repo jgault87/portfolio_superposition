@@ -30,11 +30,19 @@ document.getElementById('project1').addEventListener('click', () => {
 // });
 
 document.getElementById('project3').addEventListener('click', () => {
-  window.open('https://jgault87.github.io/my_destiny_planner/');
+  modal.style.display = 'block';
+  projectHead.innerText = 'Team Visualizer';
+  projectBody.innerHTML = `This is a handy node application which makes use of inquirer prompts to capture user input and dynamically generate an HTML page with profile information of the following individual team member roles: Manager, Engineer and Intern. It extends javaScript classes to pass along inherited properties which will then parse the information to an HTML file which makes use of Materialize CSS framework so that all of the styling and script is included in the HTML file. <br>
+  <img src="./assets/images/visualizer.gif" class="w3-image w3-margin w3-round" <br>
+  <a href="https://github.com/jgault87/team_visualizer" class="w3-button w3-margin w3-teal">Github repo</a>`;
 });
 
 document.getElementById('project4').addEventListener('click', () => {
-  window.open('https://github.com/jgault87/generateReadYou');
+  modal.style.display = 'block';
+  projectHead.innerText = 'Generate readYou';
+  projectBody.innerHTML = `this application uses node.js and inquirer to capture responses in the terminal and then output them into a readme file with a traversable interface and organization. You can use this to generate a readme for any application using the markdown language. <br>
+  <img src="./assets/images/generate.png" class="w3-image w3-margin w3-round" <br>
+  <a href="https://github.com/jgault87/generateReadYou" class="w3-button w3-margin w3-teal">Github repo</a>`;
 });
 
 document.getElementById('project5').addEventListener('click', () => {
