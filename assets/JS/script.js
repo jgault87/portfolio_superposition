@@ -5,7 +5,7 @@ const projectBody = document.getElementById('project-desc');
 function openNav() {
   let x = document.getElementById('myTopnav');
   if (x.className === 'topnav') {
-    x.className += 'responsive';
+    x.className += ' responsive';
   } else {
     x.className = 'topnav';
   }

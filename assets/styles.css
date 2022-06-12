@@ -61,7 +61,7 @@
     width: 100%;
   }
 
-  .topnav.responsive.icon {
+  .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -312,14 +312,3 @@ body {
 
 }
 
-.main {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-
-  padding: 50px 0 600px;
-
-  -webkit-box-shadow: 0 3px 5px #222;
-  -moz-box-shadow: 0 3px 5px #222;
-  box-shadow: 0 3px 5px #222;
-}
