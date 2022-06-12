@@ -22,11 +22,6 @@ https://user-images.githubusercontent.com/99287734/173253948-93bb44ca-37a9-41d9-
   This website is built and will be maintained with responsive web design in mind.
   
 
-  ## Table of Contents
-  * [Installation](#installation)
-  * [License](#license)
-  * [Questions](#questions)
-  
   ## Installation 
   visit my deployed page at [GitHub pages](https://jgault87.github.io/portfolio_superposition)
 
