@@ -16,7 +16,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  
+
 }
 
 .topnav a {
@@ -26,7 +26,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .topnav a:hover {
@@ -78,27 +78,6 @@
 
 
 
-.para {
-  background-color: white;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-
-}
-
-#paragraph {
-  background-color: white;
-  border-radius: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
-  outline: 2px solid black;
-
-}
-
-
-
-
-
 
 .footer {
   background-color: var(--grape);
@@ -109,8 +88,8 @@
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 1.1rem;
-  
+  font-size: 1.4rem;
+
 }
 
 .footer a {
@@ -127,41 +106,32 @@
 
 }
 
-.main {
-  position: relative;
-  z-index: 1;
-  text-align: center;
 
-  padding: 50px 0 600px;
-
-  -webkit-box-shadow: 0 3px 5px #222;
-  -moz-box-shadow: 0 3px 5px #222;
-  box-shadow: 0 3px 5px #222;
-}
-
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   font-weight: 700;
-  font-size: 130%;
+  font-size: 1.4rem;
   text-align: center;
 
 }
 
 body {
 
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-
-  
-  font-size: 130%;
   background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af);
   background: linear-gradient(to right, #2c3e50, #4ca1af);
   font-family: 'Roboto', sans-serif !important;
   margin: 0;
-  position: relative;
-  z-index: 0;
+}
 
+.about {
+  text-shadow: 2px 2px 4px #000000;
+  color: white;
+  font-size: 130%;
 }
 
 .grid-container {
@@ -196,7 +166,6 @@ body {
 }
 
 .item1 {
-  grid-column: 1 / span 3;
   background-image: url(images/weatherbanner.png);
   background-size: cover;
   background-repeat: no-repeat, repeat;
@@ -234,6 +203,7 @@ body {
 
 
 .item4 {
+  
   background-image: url(images/generate.png);
   background-size: cover;
   background-repeat: no-repeat, repeat;
@@ -246,12 +216,35 @@ body {
 
 }
 
+.item5 {
+  grid-column: 1 / span 2;
+  background-image: url(images/teacup.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  cursor: pointer;
+}
+
+.item6 {
+  
+  background-image: url(images/blog.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-shadow: 3px 3px 6px black;
+ -webkit-text-fill-color: white;
+  /* opacity: 0.7; */
+  cursor: pointer;
+}
 
 .button,
 .item1:hover,
 .item2:hover,
 .item3:hover,
-.item4:hover {
+.item4:hover, 
+.item5:hover,
+.item6:hover {
   box-shadow: inset 0px 0px 16px var(--grape), 0 0 30px var(--grape);
 
 }
@@ -260,27 +253,6 @@ body {
   margin-top: 200px;
   margin-bottom: 200px;
 }
-
-.wrapper {
-  display: flex;
-  padding: 25px;
-  margin-top: 400px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 400px;
-  border: 5px;
-  background-color: white;
-  left: 200px;
-  right: 200px;
-  outline: 2px solid black;
-  border-radius: 15px;
-  text-align: center;
-
-
-
-
-}
-
 
 
 
@@ -306,7 +278,9 @@ body {
   .item1,
   .item2,
   .item3,
-  .item4 {
+  .item4,
+  .item5,
+  .item6 {
     margin-bottom: 15px;
   }
 
