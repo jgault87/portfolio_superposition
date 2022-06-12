@@ -40,7 +40,7 @@ document.getElementById('project5').addEventListener('click', () => {
   projectBody.innerHTML = `This application is a collaboratively developed social media application using the full-stack MVC paradigm. 
   The concept is a social media website for pet-oriented content and showcasing a user's pet with pictures, traits and personality. It's also a place for interacting with other pet owners. We like to think of it as a twitter-like website for our furry friends. Read more about the technologies used on Github and try it out on Heroku! <br>
   <img src="./assets/images/teacup.jpg" class="w3-image w3-margin w3-round" <br>
-  <a href="https://github.com/Boopdid/teacup-yorkies" class="w3-button w3-margin w3-teal">Github repo</a>   <a href="https://howler-forpets.herokuapp.com/" class="w3-button w3-margin w3-teal">Deployed Page</a>`;
+  <a href="https://github.com/jgault87/teacup-yorkies" class="w3-button w3-margin w3-teal">Github repo</a>   <a href="https://howler-forpets.herokuapp.com/" class="w3-button w3-margin w3-teal">Deployed Page</a>`;
 });
 
 document.getElementById('project6').addEventListener('click', () => {
@@ -55,7 +55,7 @@ document.getElementById('project6').addEventListener('click', () => {
 function openNav() {
   let x = document.getElementById('myTopnav');
   if (x.className === 'topnav') {
-    x.className += ' responsive';
+    x.className += 'responsive';
   } else {
     x.className = 'topnav';
   }
