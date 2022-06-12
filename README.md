@@ -13,8 +13,8 @@
 ![](https://img.shields.io/badge/javaScript-brightgreen.svg)
 
 
-  ## Description 
-Mobile UI demo
+  ## Mobile UI Demo 
+
 https://user-images.githubusercontent.com/99287734/173253948-93bb44ca-37a9-41d9-a94f-feb38618df9a.mp4
 
 
