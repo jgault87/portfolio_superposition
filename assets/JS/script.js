@@ -2,6 +2,8 @@ const modal = document.getElementById('project-modal');
 const projectHead = document.getElementById('project-header');
 const projectBody = document.getElementById('project-desc');
 
+ 
+// change navbar to responsive mobile UI class to show navbar dropdown
 function openNav() {
   let x = document.getElementById('myTopnav');
   if (x.className === 'topnav') {
@@ -11,6 +13,7 @@ function openNav() {
   }
 }
 
+// event listeners on each project grid that target and populate modal
 document.getElementById('project1').addEventListener('click', () => {
   modal.style.display = 'block';
   projectHead.innerText = 'Weather Machine';
@@ -20,14 +23,6 @@ document.getElementById('project1').addEventListener('click', () => {
     <a href="https://github.com/jgault87/weather-machine" class="w3-button w3-margin w3-teal">Github repo</a>   <a href="https://jgault87.github.io/weather-machine/" class="w3-button w3-margin w3-teal">Deployed Page</a>`;
 });
 
-// document.getElementById('project2').addEventListener("click", () => {
-//   modal.style.display='block';
-//   projectHead.innerText = "CityScapes";
-//   projectBody.innerHTML = `This project is a weather dashboard that calls the One Call open weather
-//   API and dynamically generates weather forecast/UVI index data/saves previous searches in local browser storage. <br>
-//   <a href="https://github.com/jgault87/weather-machine" class="w3-button w3-margin w3-teal">Github repo</a>   <a href="https://jgault87.github.io/weather-machine/" class="w3-button w3-margin w3-teal">Deployed Page</a>`;
-
-// });
 
 document.getElementById('project3').addEventListener('click', () => {
   modal.style.display = 'block';
