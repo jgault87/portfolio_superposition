@@ -16,6 +16,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 
 }
 
@@ -104,18 +105,16 @@
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+.projecth1 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   font-weight: 700;
   font-size: 1.4rem;
   text-align: center;
+  font-family: 'Roboto', sans-serif !important;
 
 }
+
 
 body {
 
