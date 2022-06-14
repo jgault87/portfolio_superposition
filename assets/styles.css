@@ -12,7 +12,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: var(--grape);
+  background-color: #2a353c;
   position: fixed;
   top: 0;
   width: 100%;
@@ -78,7 +78,7 @@
 
 
 .footer {
-  background-color: var(--grape);
+  background-color: #2a353c;
   height: 17vh;
   position: relative;
   margin-top: 200px;
