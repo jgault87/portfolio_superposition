@@ -34,10 +34,7 @@
   color: black;
 }
 
-.topnav a.active {
-  background-color: var(--denim);
-  color: white;
-}
+
 
 .topnav .icon {
   display: none;
