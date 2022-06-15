@@ -41,7 +41,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav.responsive {
     position: fixed;
     top: 0;
@@ -87,6 +87,7 @@
   text-align: center;
   text-decoration: none;
   font-size: 1.4rem;
+  bottom: 0;
 
 }
 
@@ -258,7 +259,7 @@ body {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
   .grid-container {
 
