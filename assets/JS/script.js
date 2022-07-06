@@ -53,7 +53,7 @@ document.getElementById('project6').addEventListener('click', () => {
   modal.style.display = 'block';
   projectHead.innerText = 'Blog Buster (Full-stack application)';
   projectBody.innerHTML = `this project is my first endeavor into creating a full-stack application that makes use of front end, back end and database techs
-   that culminate in a tech blog website that verifies user credentials, uses cookies and session data to handle user queries and UI is affected by user states. It uses bcrypt hooks to hash password data and a SQL database. Visit the Github page to learn what other technologies/languages were used and the deployed link to heroku! <br>
+   that culminate in a tech blog website that verifies user credentials, uses cookies and session data to handle user queries and UI is affected by user states. It uses bcrypt hooks to hash password data, handlebars webviews engine and Sequelize to hand the SQL database. Visit the Github page to learn what other technologies/languages were used and the deployed link to heroku! <br>
   <img src="./assets/images/blog.jpg" class="w3-image w3-margin w3-round" <br>
   <a href="https://github.com/jgault87/blog-buster" class="w3-button w3-margin w3-teal">Github repo</a>   <a href="https://mighty-savannah-09972.herokuapp.com/" class="w3-button w3-margin w3-teal">Deployed Page</a>`;
 });
