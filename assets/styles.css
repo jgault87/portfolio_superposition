@@ -9,6 +9,10 @@
   color: var(--grape);
 
 }
+/* hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
 
 .topnav {
   overflow: hidden;
@@ -124,6 +128,7 @@ body {
   margin: 0;
   position: relative;
   z-index: 0;
+  
 }
 
 .about {
